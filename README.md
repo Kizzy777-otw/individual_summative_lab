@@ -1,5 +1,3 @@
-# Submission Reminder App
-
 This is an app that reminds students about their pending assignment submissions.
 
 ## Files in this repository
@@ -10,18 +8,20 @@ This is an app that reminds students about their pending assignment submissions.
 
 ## How to set up and run
 
-1. Make the setup script executable and run it:
+1. Run the create_environment scipt first :
 
 ```bash
-chmod +x create_environment.sh
 ./create_environment.sh
 ```
-2. Run the app in your created directory
+2. From the prompt you can copy paste the suggested code or sun it in the created directory
 ```bash
 cd submission_reminder_<name you entered in step 1>
-./startup.sh```
-3. If you want to change the assignment name
+./startup.sh
+```
+3. If you want to change the assignment name use the suggested code from the create_environment scipt or run it in the created directory with the following code
 ```bash
 chmod +x copilot_shell_script.sh
-./copilot_shell_script.sh```
-and go back to run the ./startup.sh and check for another assignment.
+./copilot_shell_script.sh
+```
+and go back to run the ./startup.sh and try using the app to check information fot another assignment.
+
